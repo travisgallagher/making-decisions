@@ -59,8 +59,8 @@ if(amysBirthYear === brittanisBirthYear) {
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
-let rain = true
+let temperature = 75
+let rain = false
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what 
@@ -91,9 +91,6 @@ if(temperature >= 80 && rain === true) {
 
 
 
-
-
-
 ////////// PROBLEM 5 //////////
 
 /*
@@ -101,15 +98,28 @@ if(temperature >= 80 && rain === true) {
 */
 
 //CODE HERE
+for(let i = 0; i < 10; i++) {
+  console.log(`hello`);
+  i = i++;
+};
 
 
 ////////// PROBLEM 6 //////////
 
 /*
-  Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
+  Create a for-loop that runs 10 times, logging the numbers 1 through 10.
+   Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
 //CODE HERE
+let num = 1;
+
+for(let i = 0; i < 10; i++) {
+  console.log(num)
+  num = num + 1;
+  i = i++;
+}
+
 
 
 ////////// PROBLEM 7 //////////
