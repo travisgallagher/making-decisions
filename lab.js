@@ -170,12 +170,14 @@ while(score < passingScore) {
 */
 
 //CODE HERE
-let changeMyMind = true; 
+let changeMyMind = false; 
 
 if(changeMyMind === true){
-  changeMyMind = false; 
-} else if(changeMyMind === false) {
+  changeMyMind = false;
+  console.log(changeMyMind); 
+} else {
   changeMyMind = true; 
+  console.log(changeMyMind); 
 }
 
 ////////// PROBLEM 10 //////////
@@ -184,11 +186,8 @@ if(changeMyMind === true){
 
 //CODE HERE
 
-if(changeMyMind === true){
-  console.log(changeMyMind);
-} else {
-  console.log(!changeMyMind);
-}
+changeMyMind = !changeMyMind;
+console.log(changeMyMind); 
 
 
 
@@ -203,6 +202,9 @@ let z = 5
 //If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
-while(z > 0){
- 
+
+while (z > 0) {
+  for(let i = z; i > 0; i--)
+  console.log(i)
+  z--
 }
